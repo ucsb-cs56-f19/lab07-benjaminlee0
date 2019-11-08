@@ -1,3 +1,5 @@
+Documentation: https://ucsb-cs56-f19.github.io/lab07-benjaminlee0/apidocs/hello/package-summary.html
+
 A simple Spring Boot webapp using:
 * Thymeleaf templating
 * Pulling in Bootstrap from CDN.
