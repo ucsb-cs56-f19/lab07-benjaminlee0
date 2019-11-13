@@ -1,4 +1,4 @@
-Documentation: https://ucsb-cs56-f19.github.io/lab07-benjaminlee0/apidocs/hello/package-summary.html
+Documentation: https://ucsb-cs56-f19.github.io/lab07-benjaminlee0/
 
 A simple Spring Boot webapp using:
 * Thymeleaf templating
