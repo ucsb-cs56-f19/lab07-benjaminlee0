@@ -1,4 +1,6 @@
 Documentation: https://ucsb-cs56-f19.github.io/lab07-benjaminlee0/
+Heroku app: https://cs56-f19-lab07-benjaminlee0.herokuapp.com/
+
 
 A simple Spring Boot webapp using:
 * Thymeleaf templating
