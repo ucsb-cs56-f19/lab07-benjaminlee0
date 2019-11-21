@@ -13,20 +13,24 @@
 
         <table class="table">
             <thead>
+
+                <tr>
+                    <th>Type</th>
+                    <th>Url</th>
+                    <th>Count</th>
+		    <th>Distance (km)</th>
+		    <th>Minimum Magnitude</th>
+                </tr>
             </thead>
 
-            <tr>
-                <th>Distance (km)</th>
-                <td th:text="${eqSearch.distance}"></td>
-            </tr>
-            <tr>
-                <th>Minimum Magnitude</th>
-                <td th:text="${eqSearch.minmag}"></td>
-            </tr>
 
             <tbody>
                 <tr>
                     <td th:text="${featureCollection.type}"></td>
+                    <td th:text="${featureCollection.metadata.url}"></td>
+                    <td th:text="${featureCollection.metadata.count}"></td>
+		    <td th:text="${eqSearch.distance}"></td>
+		    <td th:text="${eqSearch.minmag}"></td>
                 </tr>
             </tbody>
         </table>
