@@ -1,5 +1,6 @@
 package hello;
 
+import hello.geojson.FeatureCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
@@ -70,6 +71,11 @@ EarthquakeQueryService e =
 
         String json = e.getJSON(eqSearch.getDistance(), eqSearch.getMinmag());
         model.addAttribute("json", json);
+
+
+
+        FeatureCollection featureCollection = FeatureCollection.fromJSON(json);
+        model.addAttribute("featureCollection",featureCollection);
         return "earthquakes/results";
     }
 
