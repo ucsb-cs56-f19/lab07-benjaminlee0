@@ -9,6 +9,7 @@ public class EqSearch {
 
 	public int getMinmag(){
 		return this.minmag;
+	}
 
 	public void setDistance(int dist){
 		this.distance = dist;
