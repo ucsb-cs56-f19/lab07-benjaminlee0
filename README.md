@@ -1,6 +1,6 @@
 Documentation: https://ucsb-cs56-f19.github.io/lab07-benjaminlee0/
 Heroku app: https://cs56-f19-lab07-benjaminlee0.herokuapp.com/
-
+travis-CI: https://travis-ci.org/ucsb-cs56-f19/lab07-benjaminlee0
 
 A simple Spring Boot webapp using:
 * Thymeleaf templating
